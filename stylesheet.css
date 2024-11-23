@@ -1,0 +1,42 @@
+#outer-grid, #outer-grid > div{
+    border: 1px solid black;
+    display: grid;
+}
+
+#outer-grid {
+    height: 97vh;
+    width: 97vw;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+#header{
+   grid-column: 2 / 3; 
+}
+
+#sidebar{
+    grid-row: 1 / 3;
+    grid-template-rows: 1fr 3fr 4fr;
+}
+
+#sidebar > div{
+    border: 1px solid black;
+}
+
+ul{
+    list-style: none;
+}
+
+#main-content{
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+#main-content > div{
+    border: 1px solid black;
+}
+
+#projects{
+    grid-row: 1 / 3;
+}
+
