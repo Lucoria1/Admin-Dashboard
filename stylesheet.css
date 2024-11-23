@@ -112,3 +112,10 @@ ul{
     border: 1px solid black;
 }
 
+#announcements{
+    grid-template-rows: 1fr 7fr;
+}
+
+#announcements > div{
+    border: 1px solid black;
+}
