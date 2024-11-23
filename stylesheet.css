@@ -13,15 +13,43 @@
 #header{
    grid-column: 2 / 3;
    grid-template-columns: 3fr 2fr;
-   grid-template-rows: 1fr 1fr;
+   grid-template-rows: 4fr 5fr;
+}
+
+#search-bar{
+    grid-template-columns: 1fr 6fr;
+}
+
+#search-bar > div{
+    border: 1px solid black;
 }
 
 #user{
     grid-row: 2 / 3;
+    grid-template-columns: 1fr 4fr;
+    grid-row: 1fr 2fr;
+}
+
+#user > div{
+    border: 1px solid black;
+}
+
+#user-icon{
+    grid-row: 1/3;
 }
 
 #user-buttons{
     grid-row: 1 / 3;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#user-buttons > div{
+    border: 1px solid black;
+}
+
+#buttons{
+    grid-column: 1 / 3;
 }
 
 #header > div{
@@ -62,9 +90,25 @@ ul{
 
 #main-content > div{
     border: 1px solid black;
+    display: grid;
 }
 
 #projects{
     grid-row: 1 / 3;
+    grid-template-rows: 1fr 10fr;
+}
+
+#projects > div{
+    border: 1px solid black;
+}
+
+#content-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#content-cards > div{
+    border: 1px solid black;
 }
 
