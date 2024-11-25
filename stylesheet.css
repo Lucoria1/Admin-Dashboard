@@ -158,3 +158,23 @@ ul{
 .icon{
    width: 20px; 
 }
+
+.profile-icon{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#morgan{
+    width: 75px;
+}
+
+#user-morgan{
+    width: 50px;
+}
+
+#bar-shape{
+    height: 2rem;
+    width: 25rem;
+    background-color: var(--grey);
+    border-radius: 16px;
+}
