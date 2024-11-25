@@ -5,14 +5,18 @@
    --grey: #d1d5db;
 }
 
+body{
+    margin: 0;
+}
+
 #outer-grid, #outer-grid > div{
     border: 1px solid black;
     display: grid;
 }
 
 #outer-grid {
-    height: 97vh;
-    width: 97vw;
+    height: 99vh;
+    width: 99vw;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
 }
@@ -131,24 +135,89 @@ ul{
     background-color: var(--white);
 }
 
-#announ-content{
-
-}
-
-#announ-content > div{
+.announ-cont{
     border: 1px solid black;
+    margin: 10px;
+    display: grid;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--white);
 }
 
 .announ-cards{
     background-color: var(--white);
 }
 
-#trend-content{
+.announ-cards > p{
+    font-size: 8px;
+}
 
+.announ-cards > h5{
+    margin: 8px;
+}
+
+
+#cardOne{
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cardTwo{
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cardThree{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 #trend-content > div{
     border: 1px solid black;
+}
+
+.trend-cont{
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+#cardFour{
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cardFive{
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cardSix{
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cardSeven{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+.trend-cont > div {
+    flex-grow: 1;
 }
 
 .trend-cards{
