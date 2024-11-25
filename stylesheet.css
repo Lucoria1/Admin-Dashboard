@@ -92,6 +92,10 @@ body{
     grid-row: 2 / 3;
 }
 
+#nav-logo > .icon{
+    /* need to change the colour */
+}
+
 #settings-logo{
     grid-row: 3 / 4;
 }
