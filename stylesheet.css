@@ -7,6 +7,7 @@
  
  body{
      margin: 0;
+     font-family: "roboto", sans-serif
  }
  
  #outer-grid, #outer-grid > div{
@@ -26,7 +27,9 @@
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 4fr 5fr;
     background-color: var(--white);
- }
+    margin-bottom: 3px;
+    box-shadow: 0px 3px 3px rgb(187, 187, 187);
+}
  
  #search-bar{
      grid-template-columns: 1fr 6fr;
@@ -86,6 +89,8 @@
      background-color: var(--blue);
      border: 0;
      height: 30px;
+     color: var(--white);
+     font-weight: bold;
  }
 
  #icon{
@@ -189,9 +194,21 @@
      background-color: var(--grey);
  }
  
- #main-content > div{
+ #main-content > #projects-content, #main-content > #announ-content, #main-content > #trend-content{
      /* border: 1px solid black; */
      display: grid;
+ }
+
+ #projects-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+
+ #projects-title > h4{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
  }
  
  #projects-content{
@@ -210,6 +227,7 @@
      /* border: 1px solid black; */
      border-left: 5px solid var(--orange);
      border-radius: 8px;
+     box-shadow: 2px 2px 2px rgb(187, 187, 187);
  }
  
  .cards{
@@ -233,6 +251,7 @@
      border-radius: 10px;
      overflow: hidden;
      background-color: var(--white);
+     box-shadow: 2px 2px 2px rgb(187, 187, 187);
  }
  
  .announ-cards{
@@ -246,7 +265,17 @@
  .announ-cards > h5{
      margin: 8px;
  }
- 
+
+ #announ-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+
+ #announ-title > h4{
+    margin: 0;
+    margin-left: 10px;
+ } 
  
  #cardOne{
      border-bottom: 1px solid black;
@@ -279,7 +308,20 @@
      overflow: hidden;
      border-radius: 10px;
      background-color: var(--white);
+     box-shadow: 2px 2px 2px rgb(187, 187, 187);
  }
+
+ #trend-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+
+ #trend-title > h4{
+    margin: 0;
+    margin-left: 10px;
+ } 
+
  
  #cardFour{
      border-bottom: 1px solid black;
@@ -336,7 +378,7 @@
  
  
  .trend-icon{
-     /* border: 1px solid black; */
+     border: 1px solid black;
      border-radius: 50%;
      display: flex;
      justify-self: center;
@@ -370,6 +412,7 @@
  .profile-icon{
      border: 1px solid black;
      border-radius: 50%;
+     background-color: orange;
  }
  
  #morgan{
@@ -410,4 +453,20 @@
 
  #name{
     margin-top: 30px;
+ }
+
+ #tTegan{
+    background-color: red;
+ }
+
+ #tMorgan{
+    background-color: orange;
+ }
+
+ #tKendall{
+    background-color: blue;
+ }
+
+ #tAlex{
+    background-color: green;
  }
