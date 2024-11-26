@@ -243,6 +243,11 @@
     margin-left: 30px;
     margin-right: 10px;
  }
+
+ .cards > p{
+    font-size: 10px;
+    color: gray;
+ }
  
  .announ-cont{
      /* border: 1px solid black; */
@@ -260,6 +265,7 @@
  
  .announ-cards > p{
      font-size: 8px;
+     color: gray;
  }
  
  .announ-cards > h5{
@@ -364,6 +370,7 @@
      font-size: 8px;
      margin: 0;
      justify-content: center;
+     color: gray;
  }
  
  .trend-user > h5{
