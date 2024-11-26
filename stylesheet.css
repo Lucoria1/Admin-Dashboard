@@ -85,6 +85,7 @@
      border-radius: 30px;
      background-color: var(--blue);
      border: 0;
+     height: 30px;
  }
 
  #icon{
@@ -401,4 +402,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+ }
+
+ #notif > .icon{
+    margin-right: 15px;
+ }
+
+ #name{
+    margin-top: 30px;
  }
