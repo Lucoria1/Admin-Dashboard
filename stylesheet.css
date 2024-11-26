@@ -10,7 +10,7 @@
  }
  
  #outer-grid, #outer-grid > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
      display: grid;
  }
  
@@ -33,7 +33,7 @@
  }
  
  #search-bar > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
  }
  
  #user{
@@ -43,7 +43,7 @@
  }
  
  #user > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
  }
  
  #user-icon{
@@ -60,7 +60,7 @@
  }
  
  #user-buttons > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
  }
  
  #buttons{
@@ -73,6 +73,7 @@
      margin: 20px 10px 20px 10px ;
      border-radius: 30px;
      background-color: var(--blue);
+     border: 0;
  }
 
  #icon{
@@ -82,7 +83,7 @@
  }
  
  #header > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
      display: grid;
  }
  
@@ -123,6 +124,7 @@
     justify-content: flex-start;
     gap: 15px;
     margin: 0;
+    padding: 0;
  }
 
  #nav > ul > li{
@@ -148,6 +150,7 @@
     justify-content: flex-start;
     gap: 15px;
     margin: 0;
+    padding: 0;
  }
 
  #settings > ul > li{
@@ -155,7 +158,7 @@
  }
  
  #sidebar > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
  }
  
  ul{
@@ -169,7 +172,7 @@
  }
  
  #main-content > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
      display: grid;
  }
  
@@ -186,16 +189,27 @@
  }
  
  #content-cards > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
      border-left: 5px solid var(--orange);
+     border-radius: 8px;
  }
  
  .cards{
      background-color: var(--white);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .cards > h4, .cards > p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 10px;
  }
  
  .announ-cont{
-     border: 1px solid black;
+     /* border: 1px solid black; */
      margin: 10px;
      display: grid;
      border-radius: 10px;
@@ -236,11 +250,11 @@
  }
  
  #trend-content > div{
-     border: 1px solid black;
+     /* border: 1px solid black; */
  }
  
  .trend-cont{
-     border: 1px solid black;
+     /* border: 1px solid black; */
      margin: 10px;
      display: flex;
      flex-direction: column;
@@ -304,7 +318,7 @@
  
  
  .trend-icon{
-     border: 1px solid black;
+     /* border: 1px solid black; */
      border-radius: 50%;
      display: flex;
      justify-self: center;
